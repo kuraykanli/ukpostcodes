@@ -8,10 +8,10 @@ Library that validates and formats post codes for UK.
 
 ###### Installing to environment and running tests
 ```python
-   # Install pip dependencies
+   # Install pip dependencies for standalone run from library
    pip install -r requirements.txt
 
-   # Run Setup file
+   # Run Setup file for install to global or virtual environment
    python3 setup.py install
 
    # Unit Tests are available at tests.py
@@ -41,6 +41,7 @@ ukpostcodes.validate_postcode_api(postcode)
 ```
 
 This method returns validity status of postcode as boolean from GET request made to API
+
 Remark: This method verifies legitimacy of the postcode.
 * **:param postcode** - Input of postcode is required.
 * **:return: boolean** - True if valid and False if invalid
