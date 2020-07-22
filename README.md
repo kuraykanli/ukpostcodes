@@ -72,7 +72,7 @@ ukpostcodes.parse_inward(postcode)
 
 This method returns parsed string of Inward Code after validating via regex.
 * **:param postcode** - Input of postcode is required.
-* **:return: json** - String of Inward Code
+* **:return: string** - String of Inward Code
 
 
 ## parse_outward
@@ -82,7 +82,7 @@ ukpostcodes.parse_outward(postcode)
 
 This method returns parsed string of Outward Code after validating via regex.
 * **:param postcode** - Input of postcode is required.
-* **:return: json** - String of Outward Code
+* **:return: string** - String of Outward Code
 
 
 ## Contributing
