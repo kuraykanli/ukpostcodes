@@ -3,6 +3,11 @@
 Library that validates and formats post codes for UK. 
 
 # Installation
+###### PIP Installation
+```python
+$ pip install ukpostcodes
+```
+
 ###### Clone the Repository
 `git@github.com:kuraykanli/ukpostcodes.git`
 

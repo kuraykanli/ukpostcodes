@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='ukpostcodes', 
+    name='ukpostcodes',
     packages=['ukpostcodes'],
     version='1.0.0',
     description='Library that validates and formats post codes for UK',
@@ -10,5 +10,5 @@ setup(
     author='Kuray Kanli',
     author_email='kuray@kuraykanli.com',
     license='MIT',
-    install_requires=['requests==2.24.0']
+    install_requires=['requests']
 )
